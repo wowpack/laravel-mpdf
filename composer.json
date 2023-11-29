@@ -1,0 +1,17 @@
+{
+    "name": "wowpack/laravel-mpdf",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Wowpack\\LaravelMpdf\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aimon Islam",
+            "email": "oss@aimonext.com"
+        }
+    ],
+    "require": {}
+}
