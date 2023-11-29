@@ -4,7 +4,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Wowpack\\LaravelMpdf\\": "src/"
+            "Wowpack\\LaravelMPdf\\": "src/"
         }
     },
     "authors": [
@@ -13,5 +13,19 @@
             "email": "oss@aimonext.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "^8.1",
+        "mpdf/mpdf": "^8.2",
+        "illuminate/support": "^8.12|^9.0|^10.0"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.13",
+        "orchestra/testbench": "^8.9",
+        "phpunit/phpunit": "^10.3"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Wowpack\\LaravelMPdf\\Tests\\": "tests/"
+        }
+    }
 }
